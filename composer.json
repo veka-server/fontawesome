@@ -1,0 +1,17 @@
+{
+    "name": "veka-server/fontawesome",
+    "description": "lib css fontawesome pour ma librairie",
+    "license": "MIT",
+    "keywords": ["minimalist", "fonteawesom", "css", "font"],
+    "authors": [
+        {
+            "name": "Vanhaezebrouck Nicolas",
+            "email": "contact@veka-server.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VekaServer\\FontAwesome\\" : "src/php/"
+        }
+    }
+}
